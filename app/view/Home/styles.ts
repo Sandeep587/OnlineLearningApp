@@ -1,0 +1,230 @@
+import {StyleSheet} from 'react-native';
+import {COLORS, Dimension, Fonts, images, Themes} from '../../theme';
+
+export const styles = StyleSheet.create({
+  mainView: {
+    flex: 1,
+    backgroundColor: COLORS.white,
+  },
+  headerMainView: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    height: 50,
+    marginTop: 10,
+  },
+  headerTextOne: {
+    fontWeight: 'bold',
+    color: COLORS.black,
+    marginLeft: 10,
+    ...Fonts.h2,
+  },
+  hesderTextTwo: {
+    ...Fonts.h4,
+    marginLeft: 10,
+  },
+  headerImage: {
+    width: 35,
+    height: 40,
+    marginRight: 10,
+  },
+  bgImageStyle: {
+    alignItems: 'flex-start',
+    marginLeft: 10,
+    marginRight: 10,
+    marginTop: 20,
+  },
+  introTextOne: {
+    ...Fonts.h2,
+    color: COLORS.white,
+    marginLeft: 10,
+    marginTop: 10,
+  },
+  introFontTwo: {
+    ...Fonts.h2,
+    color: COLORS.white,
+    marginLeft: 10,
+    marginTop: 10,
+    fontWeight: 'bold',
+  },
+  introFontThree: {
+    ...Fonts.h4,
+    color: COLORS.white,
+    marginLeft: 10,
+    marginTop: 10,
+  },
+  imageStartLearning: {
+    alignSelf: 'center',
+    marginTop: 20,
+  },
+  bgStartLearning: {
+    width: 150,
+    height: 40,
+    backgroundColor: COLORS.white,
+    borderRadius: 25,
+    marginLeft: 10,
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginBottom: 20,
+  },
+  txtStartLearning: {
+    ...Fonts.h2,
+    color: COLORS.black,
+    fontWeight: 'bold',
+    fontSize: 15,
+  },
+  courseListMainView: {
+    marginTop: 20,
+    marginLeft: 10,
+    marginRight: 20,
+    width: 240,
+  },
+  courseListBg: {
+    height: 150,
+    width: 250,
+  },
+  titleCourseList: {
+    ...Fonts.h3,
+    color: COLORS.black,
+    fontWeight: 'bold',
+    marginLeft: 5,
+    marginRight: 20,
+  },
+  mainViewdurationCourseList: {
+    flexDirection: 'row',
+    marginTop: 5,
+    alignItems: 'center',
+  },
+  watchImage: {
+    width: 20,
+    height: 20,
+    marginLeft: 40,
+  },
+  durationTxt: {
+    ...Fonts.h3,
+    color: COLORS.black,
+    marginLeft: 10,
+    marginRight: 20,
+  },
+  divider: {
+    backgroundColor: COLORS.gray20,
+    height: 2,
+    marginTop: 20,
+  },
+  titleView: {
+    justifyContent: 'space-between',
+    flexDirection: 'row',
+    marginTop: 20,
+  },
+  titleTxt: {
+    ...Fonts.h2,
+    marginLeft: 10,
+    color: COLORS.black,
+    fontWeight: 'bold',
+  },
+  bgSkipAll: {
+    height: 30,
+    width: 100,
+    backgroundColor: COLORS.primary,
+    borderRadius: 30,
+    marginRight: 10,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  txtSkipAll: {
+    color: COLORS.white,
+    fontWeight: 'bold',
+    ...Fonts.h3,
+  },
+  catListMainView: {
+    marginTop: 20,
+    marginLeft: 10,
+    marginRight: 20,
+    width: 240,
+  },
+  catListBgImage: {
+    height: 150,
+    width: 250,
+    flexDirection: 'column',
+    justifyContent: 'flex-end',
+  },
+  catListTxt: {
+    alignSelf: 'center',
+    marginBottom: 20,
+    color: COLORS.white,
+    fontWeight: 'bold',
+    ...Fonts.h2,
+  },
+  popularListMainView: {
+    marginTop: 20,
+    marginLeft: 10,
+    marginRight: 20,
+    width: 240,
+    flexDirection: 'row',
+  },
+  popularListBgImage: {
+    height: 120,
+    width: 120,
+    flexDirection: 'row',
+    justifyContent: 'flex-end',
+  },
+  bgHeart: {
+    height: 40,
+    width: 40,
+    backgroundColor: COLORS.white,
+    borderRadius: 4,
+    margin: 5,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  imgHeart: {
+    width: 25,
+    height: 20,
+  },
+  popularListTitle: {
+    marginLeft: 10,
+    marginRight: 10,
+  },
+  popularTitleTxt: {
+    ...Fonts.h3,
+    fontWeight: 'bold',
+    color: COLORS.black,
+  },
+  popularInstructorStyle: {
+    flexDirection: 'row',
+    marginTop: 10,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  popularWatch: {
+    width: 15,
+    height: 15,
+    marginLeft: 10,
+  },
+  popularDuration: {
+    ...Fonts.h4,
+    marginLeft: 10,
+    marginRight: 20,
+  },
+  popuCostRatingView: {
+    flexDirection: 'row',
+    marginTop: 10,
+    alignItems: 'center',
+  },
+  popuPrice: {
+    ...Fonts.h2,
+    fontWeight: 'bold',
+    color: COLORS.primary,
+  },
+  star: {
+    width: 15,
+    height: 15,
+    marginLeft: 10,
+  },
+  rating:{
+    ...Fonts.h4,
+    color: COLORS.black,
+    marginLeft: 10,
+    marginRight: 20,
+    fontWeight: 'bold',
+  }
+});
